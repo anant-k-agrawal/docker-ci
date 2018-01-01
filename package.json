@@ -8,7 +8,6 @@
   "license": "Add licensing information...",
   "dependencies": {
     "express": "3.2.4",
-    "jade": "1.11.0",
     "mocha": "1.20.1",
     "supertest": "1.1.0"
   }
