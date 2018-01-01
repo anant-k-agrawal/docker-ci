@@ -8,6 +8,9 @@ MAINTAINER agrawal.anant@gmail.com
 # Install Node...
 RUN apt-get install -y npm --enablerepo=epel
 
+# Install Pug...
+RUN npm install pug
+
 # Copy app to /src
 COPY . /src
 
