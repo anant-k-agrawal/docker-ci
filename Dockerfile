@@ -1,12 +1,12 @@
-FROM centos:centos6
+FROM ubuntu:16.04
 
-MAINTAINER nigelpoulton@hotmail.com
+MAINTAINER agrawal.anant@gmail.com
 
 # Enable EPEL for Node.js
-RUN rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
+# RUN rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
 
 # Install Node...
-RUN yum install -y npm
+RUN apt-get install -y npm --enablerepo=epel
 
 # Copy app to /src
 COPY . /src

@@ -1,11 +1,11 @@
 {
-  "name": "hello-pluralsighters",
+  "name": "hello-docker-ci-cd",
   "private": true,
   "version": "0.0.1",
-  "description": "Demo app for Pluralsight Docker CI course",
+  "description": "Demo app for Docker CI/CD",
   "main": "app.js",
-  "author": "Nigel Poulton <nigelpoulton@hotmail.com>",
-  "license": "You'd have to be mad to use this in production :-D",
+  "author": "Anant Agrawal <agrawal.anant@gmail.com>",
+  "license": "Add licensing information...",
   "dependencies": {
     "express": "3.2.4",
     "jade": "1.11.0",
